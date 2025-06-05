@@ -1,4 +1,4 @@
-# Node Observability Stack
+# server-monitoring-with-prometheus-loki
 
 A complete observability solution using Node.js, Prometheus, Loki, and Grafana. This project demonstrates how to collect logs and performance metrics from a custom Express server, send logs to Loki, expose metrics for Prometheus, and visualize everything in Grafana dashboards.
 
