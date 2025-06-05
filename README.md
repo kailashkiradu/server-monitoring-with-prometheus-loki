@@ -55,16 +55,12 @@ This project creates a simulated Node.js server that generates logs and performa
 
 1. **Clone the repository**
 
-   ```bash
    git clone <repository-url>
    cd <repository-folder>
-````
 
 2. **Install Node.js dependencies**
 
-   ```bash
    npm install
-   ```
 
 3. **Configure Prometheus**
 
@@ -74,9 +70,7 @@ This project creates a simulated Node.js server that generates logs and performa
 
    Ensure `docker-compose.yml` is in the project root, then run:
 
-   ```bash
    docker-compose up -d
-   ```
 
    This will start the following services:
 
@@ -90,9 +84,7 @@ This project creates a simulated Node.js server that generates logs and performa
 
 1. **Start your Node.js server**
 
-   ```bash
    node index.js
-   ```
 
    The server will listen on port `8000` by default.
 
@@ -233,9 +225,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to reach out if you want help with customizing or deploying this project!
 
-```
-
 ---
-
-If you want, I can help generate the Docker Compose file or example config files as well. Would you like that?
-```
