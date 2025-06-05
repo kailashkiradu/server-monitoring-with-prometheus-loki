@@ -24,6 +24,9 @@ A complete observability solution using Node.js, Prometheus, Loki, and Grafana. 
 
 This project creates a simulated Node.js server that generates logs and performance metrics. Logs are shipped to Loki, while metrics are exposed to Prometheus. Grafana connects to both Loki and Prometheus to provide a unified dashboard for monitoring server health, error logs, and request performance.
 
+![Screenshot 2025-06-05 121429](https://github.com/user-attachments/assets/3e494fd5-0454-4b86-a2a7-e53a010c206c)
+
+
 ---
 
 ## Project Components
@@ -126,17 +129,33 @@ This project creates a simulated Node.js server that generates logs and performa
 
 * **Metrics**
 
+![Screenshot 2025-06-05 121334](https://github.com/user-attachments/assets/fc9ae966-0e7e-45d3-aa8b-627d25db0df6)
+
+
   Prom-client collects default system metrics and custom metrics such as request count and response times. These are exposed on `/metrics` endpoint for Prometheus scraping.
 
 * **Prometheus**
 
+![Screenshot 2025-06-05 121419](https://github.com/user-attachments/assets/7856b9dc-d5b5-4531-a25e-7bbdb401ae34)
+
+
   Scrapes the `/metrics` endpoint periodically to collect and store metrics.
 
+* **Docker**
+
+![Screenshot 2025-06-05 121352](https://github.com/user-attachments/assets/e2a960e6-bb64-4efe-8dbf-31447c590df7)
+
+
 * **Loki**
+
+![Screenshot 2025-06-05 122900](https://github.com/user-attachments/assets/cc1b1dd3-c18c-4a6e-ad29-169783b1465d)
+
 
   Aggregates log data for querying and visualization.
 
 * **Grafana**
+
+
 
   Connects to Prometheus and Loki to provide visual monitoring, alerting, and log analysis.
 
@@ -148,6 +167,9 @@ This project creates a simulated Node.js server that generates logs and performa
 * Filter logs by severity (info, error, critical).
 * Set alerts for critical log messages or metric thresholds.
 * Correlate logs and metrics to quickly diagnose issues.
+
+![Screenshot 2025-06-05 122756](https://github.com/user-attachments/assets/3fbf1c83-6133-4a98-bfa1-fdfd2bf8c3d1)
+
 
 ---
 
