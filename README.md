@@ -222,7 +222,3 @@ This project creates a simulated Node.js server that generates logs and performa
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-
-Feel free to reach out if you want help with customizing or deploying this project!
-
----
